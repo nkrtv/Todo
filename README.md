@@ -21,6 +21,32 @@
 ## Ліцензія
 Цей проект ліцензований під MIT License.
 
+---
+
+# Todo App
+
+## Description
+This pet project is a web application for task management (To-Do List).
+
+## Technologies
+- React
+- Firebase (for authentication and data storage)
+- Material-UI (for the user interface)
+
+## Development Status
+The application is currently under development.
+
+## Usage
+The application allows users to:
+- Add new tasks.
+- View the task list.
+- Filter tasks by status and priority.
+- Authenticate using Google.
+
+## License
+This project is licensed under the MIT License.
+
+
 
 
 
