@@ -21,9 +21,9 @@ function App() {
         flexDirection: 'column',
         justifyContent: 'center',
       }}>
-        <Container maxWidth="md" sx={{ padding: '20px' }}>
+        <Container maxWidth="md" sx={{ padding: { xs: '10px', sm: '20px' } }}>
           <Paper elevation={24} sx={{
-            padding: '40px',
+            padding: { xs: '20px', sm: '40px' },
             backgroundColor: currentTheme.palette.background.app,
             position: 'relative',
             borderRadius: '30px'
@@ -34,6 +34,7 @@ function App() {
                 position: 'absolute',
                 top: '16px',
                 right: '16px',
+                margin: { xs: '-10px', sm: '10px' },
                 color: currentTheme.palette.button.active
               }}
             >
@@ -43,6 +44,7 @@ function App() {
               sx={{
                 textAlign: 'center',
                 display: 'flex',
+                marginTop: '25px',
                 alignItems: 'center',
                 justifyContent: 'center',
               }}>

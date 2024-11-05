@@ -25,7 +25,7 @@ const TodoItem = memo(({ todo, onDelete, onOpenDetail }) => {
     >
       <DeleteButton todoId={todo.id} tooltipText="Delete task" onClick={handleDelete} />
       <Typography variant='p' onClick={handleOpenDetail} 
-        sx={{ cursor: 'pointer', marginBottom: '10px' }}>
+        sx={{ cursor: 'pointer', marginRight: '4px'}}>
         {todo.taskName}
       </Typography>
       <Typography variant="body2">

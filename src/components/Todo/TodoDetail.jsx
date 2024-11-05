@@ -53,11 +53,11 @@ const TodoDetail = memo(({ open, onClose, taskName }) => {
   return (
     <BaseDialog open={open} onClose={onClose} actions={actions}>
       <Paper sx={{
-        backgroundColor: currentTheme.palette.background.task, 
+        backgroundColor: currentTheme.palette.background.task,
         padding: '20px'
       }}>
         <Typography variant='p'> {todo.taskName} </Typography>
-        <Typography variant="body2" sx={{ marginTop: '20px'}}>
+        <Typography variant="body2" sx={{ marginTop: '20px' }}>
           {`Description: ${taskDescription}`}
         </Typography>
         <Divider sx={{ margin: '10px 0' }} />

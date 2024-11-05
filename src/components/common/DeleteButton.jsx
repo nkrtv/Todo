@@ -16,6 +16,7 @@ const DeleteButton = ({ onClick, tooltipText }) => {
         sx={{
           position: 'absolute',
           right: 8,
+          margin: { xs: '-10px'},
           color: hovered ? currentTheme.palette.button.deleteHover : currentTheme.palette.text.secondary
         }}
       >

@@ -10,7 +10,7 @@ const BaseDialog = ({ open, onClose, title, children, actions }) => {
       PaperProps={{
         sx: {
           borderRadius: '30px',
-          overflow: 'hidden',
+          overflow: 'auto'
         }
       }}
     >

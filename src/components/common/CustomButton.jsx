@@ -10,6 +10,7 @@ const CustomButton = ({ children, variant = 'contained', onClick, ...props }) =>
       variant={variant}
       onClick={onClick}
       sx={{
+        marginLeft: '10px',
         borderRadius: '15px',
         ...(variant === 'contained'
           ? { backgroundColor: currentTheme.palette.button.active }
